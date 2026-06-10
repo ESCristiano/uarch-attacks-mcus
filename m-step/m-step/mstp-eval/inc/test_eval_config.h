@@ -1,0 +1,2 @@
+#define TEST_TOY_ATTACK_ENABLE
+
