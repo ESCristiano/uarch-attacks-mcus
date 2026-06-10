@@ -1,0 +1,11 @@
+Color_type: Probability #Integer
+Gradient: orange
+Min_number_of_colors: 100
+Y: SRAM1 FLASH AHB1 APB1
+X: SRAM1 FLASH AHB1 APB1
+
+0.00 0.00 0.00 1.00
+0.00 0.00 1.00 0.00
+0.00 0.31 0.00 0.00
+1.00 0.00 0.00 0.00
+
