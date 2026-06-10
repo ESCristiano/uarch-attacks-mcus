@@ -1,9 +1,3 @@
-[submodule "m-step/mstp-debug/renode/src/renode-infrastructure"]
-	path = m-step/mstp-debug/renode/src/renode-infrastructure
-	url = https://github.com/ESCristiano/renode-infrastructure.git
-[submodule "m-step/mstp-debug/renode/src/renode"]
-	path = m-step/mstp-debug/renode/src/renode
-	url = https://github.com/ESCristiano/renode.git
 [submodule "m-step/s-world/mcuboot"]
 	path = m-step/s-world/mcuboot
 	url = https://github.com/mcu-tools/mcuboot
@@ -16,3 +10,9 @@
 [submodule "m-step/s-world/mbedtls"]
 	path = m-step/s-world/mbedtls
 	url = https://github.com/ESCristiano/mbedtls
+[submodule "m-step/m-step/mstp-debug/renode/src/renode"]
+	path = m-step/m-step/mstp-debug/renode/src/renode
+	url = https://github.com/ESCristiano/renode.git
+[submodule "m-step/m-step/mstp-debug/renode/src/renode-infrastructure"]
+	path = m-step/m-step/mstp-debug/renode/src/renode-infrastructure
+	url = https://github.com/ESCristiano/renode-infrastructure.git
