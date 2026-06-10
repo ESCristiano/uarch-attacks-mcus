@@ -25,7 +25,6 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "tim_int.h"
 
 int __io_putchar(int ch)
 {
@@ -74,7 +73,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-#include "toy_cache.h"
+#include "toy_busted.h"
 
 /* USER CODE END 0 */
 
@@ -108,9 +107,11 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
+  MX_DMA_Init();
   MX_GPIO_Init();
   MX_LPUART1_UART_Init();
   MX_ICACHE_Init();
+  MX_TIM7_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
   /* USER CODE END 2 */
@@ -123,8 +124,11 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     printf("\r\nHello NS World!!\r\n");
-    cache_toy_attack();
-    printf("\r\nEnd NS World!!\r\n");    
+    // for (int i = 0; i < 100000; i++);
+    // toy_attack_busted();
+    toy_attack_busted_ns();
+    printf("\r\nEnd NS World!!\r\n");
+    
     while(1);
   }
   /* USER CODE END 3 */
