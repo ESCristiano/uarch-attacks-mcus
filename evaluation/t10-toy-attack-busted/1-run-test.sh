@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 ROOT="$(realpath "$(dirname "$0")")"
 
-COPILOT_DIR="$(realpath "${ROOT}/../../copilot")"
+MSTP_ROOT_DIR="$(realpath "${ROOT}/../../m-step")"
+
+COPILOT_DIR="$(realpath "${MSTP_ROOT_DIR}/copilot")"
 GRAPH_SCRIPT_DIR="$(realpath "${ROOT}/../graphs/scripts")"
-MSTP_DIR="$(realpath "${ROOT}/../../m-step")"
-NS_DIR="$(realpath "${ROOT}/../../../toy-attack-busted")"
-PAPER_CHAPTER_DIR="$(realpath "${ROOT}/../../../../src/Chapters")"
+MSTP_DIR="$(realpath "${MSTP_ROOT_DIR}/m-step")"
+NS_DIR="$(realpath "${ROOT}/../../toy-attack-busted-src")"
 
 LOG_DIR=${ROOT}/logs
 RAW_TRACE=${LOG_DIR}/0_raw_trace.txt
@@ -14,9 +15,6 @@ OUTPUTS=${ROOT}/outputs
 TEST_NAME="C04-toy_attack_busted"
 MATRIX_FILE=${LOG_DIR}/${TEST_NAME}.txt
 PATTERN=${LOG_DIR}/${TEST_NAME}_aux.txt
-
-CHAPTER=04-uArch
-PAPER_CHAPTER_IMG_DIR=${PAPER_CHAPTER_DIR}/${CHAPTER}/1-imgs/C04-toy_busted
 
 # Static Configuration Values
 CLEAN=false
@@ -99,7 +97,6 @@ ${NS_DIR}/2-deploy.sh
 #-------------------------------------------------------------------------------
 # Log results
 #-------------------------------------------------------------------------------
-sleep 2
 rm ${RAW_TRACE} | true
 ${NS_DIR}/3-monitor.sh -o ${RAW_TRACE}
 
@@ -169,8 +166,4 @@ python3 ${GRAPH_SCRIPT_DIR}/gen_template_matrix.py    \
         -p "${MATRIX_FILE}"                         \
         -o "${OUTPUTS}/"
 
-xdg-open ${OUTPUTS}/${TEST_NAME}_matrix.png
-
-## I'm using this output instead 
-# cp ${OUTPUTS}/${TEST_NAME}_matrix.png \
-#    ${PAPER_CHAPTER_IMG_DIR} 
+# xdg-open ${OUTPUTS}/${TEST_NAME}_matrix.png
