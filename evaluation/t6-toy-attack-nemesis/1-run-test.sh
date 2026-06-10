@@ -4,7 +4,7 @@ ROOT="$(realpath "$(dirname "$0")")"
 MSTP_ROOT_DIR="$(realpath "${ROOT}/../../m-step")"
 
 COPILOT_DIR="$(realpath "${MSTP_ROOT_DIR}/copilot")"
-GRAPH_SCRIPT_DIR="$(realpath "${ROOT}/../graphs/scripts")"
+GRAPH_SCRIPT_DIR="$(realpath "${ROOT}/../scripts")"
 MSTP_DIR="$(realpath "${MSTP_ROOT_DIR}/m-step")"
 NS_DIR="$(realpath "${MSTP_ROOT_DIR}/ns-world-bare")"
 
@@ -166,4 +166,4 @@ python3 ${GRAPH_SCRIPT_DIR}/gen_template_matrix.py    \
         -p "${MATRIX_FILE}"                         \
         -o "${OUTPUTS}/"
 
-# xdg-open ${OUTPUTS}/${TEST_NAME}_matrix.png
+# xdg-open ${OUTPUTS}/${TEST_NAME}_bare.png

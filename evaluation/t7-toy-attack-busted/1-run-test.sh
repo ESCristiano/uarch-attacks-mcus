@@ -4,7 +4,7 @@ ROOT="$(realpath "$(dirname "$0")")"
 MSTP_ROOT_DIR="$(realpath "${ROOT}/../../m-step")"
 
 COPILOT_DIR="$(realpath "${MSTP_ROOT_DIR}/copilot")"
-GRAPH_SCRIPT_DIR="$(realpath "${ROOT}/../graphs/scripts")"
+GRAPH_SCRIPT_DIR="$(realpath "${ROOT}/../scripts")"
 MSTP_DIR="$(realpath "${MSTP_ROOT_DIR}/m-step")"
 NS_DIR="$(realpath "${ROOT}/../../toy-attack-busted-src")"
 
@@ -13,7 +13,6 @@ RAW_TRACE=${LOG_DIR}/0_raw_trace.txt
 OUTPUTS=${ROOT}/outputs
 
 TEST_NAME="C04-toy_attack_busted"
-MATRIX_FILE=${LOG_DIR}/${TEST_NAME}.txt
 PATTERN=${LOG_DIR}/${TEST_NAME}_aux.txt
 
 # Static Configuration Values
@@ -115,6 +114,8 @@ grep -v -E 'TRACE' > ${PATTERN}
 # - Second part is the results generated previously, which are appended.
 #-------------------------------------------------------------------------------
 # Header
+MATRIX_FILE=${LOG_DIR}/${TEST_NAME}_v1.txt
+
 cat > ${MATRIX_FILE} << 'EOF'
 Color_type: Integer #Integer or Probability
 Gradient: orange
@@ -136,13 +137,12 @@ python3 ${GRAPH_SCRIPT_DIR}/gen_matrix.py \
         -p "${MATRIX_FILE}"           \
         -o "${OUTPUTS}/"
 
-# xdg-open ${OUTPUTS}/${TEST_NAME}_matrix.png
+# xdg-open ${OUTPUTS}/${TEST_NAME}_v1.png
 
 #-------------------------------------------------------------------------------
 # Filter results
 #-------------------------------------------------------------------------------
-TEST_NAME="C04-toy_attack_busted_v2_bare"
-MATRIX_FILE=${LOG_DIR}/${TEST_NAME}.txt
+MATRIX_FILE=${LOG_DIR}/${TEST_NAME}_v2.txt
 
 grep --no-group-separator -A 1 -E 'TRACE IF' ${RAW_TRACE} |\
 grep -v -E 'TRACE' > ${PATTERN}
@@ -167,4 +167,4 @@ python3 ${GRAPH_SCRIPT_DIR}/gen_template_matrix.py    \
         -p "${MATRIX_FILE}"                         \
         -o "${OUTPUTS}/"
 
-# xdg-open ${OUTPUTS}/${TEST_NAME}_matrix.png
+# xdg-open ${OUTPUTS}/${TEST_NAME}_v2.png
