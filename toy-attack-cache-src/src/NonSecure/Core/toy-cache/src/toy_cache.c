@@ -7,7 +7,7 @@
 //------------------------------------------------------------------------------
 // PRIME+PROBE Attack
 //------------------------------------------------------------------------------
-void trace_victim(void (*victim)(void)){
+void trace_victim_matrix(void (*victim)(void)){
     prime();
     victim();
     for (int cl = 0; cl < N_CLS; cl++){
@@ -17,6 +17,14 @@ void trace_victim(void (*victim)(void)){
             printf("---| ");
         if(cl%MATRIX_CL_PER_LINE==(MATRIX_CL_PER_LINE-1))
             printf("\r\n");
+    }
+}
+
+void trace_victim(void (*victim)(void)){
+    prime();
+    victim();
+    for (int cl = 0; cl < N_CLS; cl++){
+        printf("%d ", (probe_line(cl, 0) > CACHE_MISS_THRESHOLD) ? 2 : 1);
     }
 }
 
@@ -85,8 +93,10 @@ void setup_ns_mpu(void) {
 //------------------------------------------------------------------------------
 void cache_toy_attack_ns(){
     setup_ns_mpu();
+    printf("TRACE IF\r\n");    
     trace_victim(if_path);
-    printf("###################\r\n");
+    printf("\r\n");
+    printf("TRACE ELSE\r\n");    
     trace_victim(else_path);
 }
 
@@ -99,7 +109,9 @@ void wrap_victim_s_world(){
 
 void cache_toy_attack(){
     setup_ns_mpu();
+    printf("TRACE IF\r\n");    
     trace_victim(wrap_victim_s_world);
-    printf("###################\r\n");
+    printf("\r\n");
+    printf("TRACE ELSE\r\n");    
     trace_victim(wrap_victim_s_world);
 }

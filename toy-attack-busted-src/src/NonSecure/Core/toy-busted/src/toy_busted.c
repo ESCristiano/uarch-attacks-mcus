@@ -101,14 +101,17 @@ void process_accurate_collision(int collision_n){
 }
 
 void print_accurate_collision(){
-//   printf("CLK\t|");
-//   for(int clk = 0; clk < 50; clk++){
-//      printf(" %3d\t|", clk );
-//   }
-//   printf("\n");
-//   printf("COL\t|");
   for(int clk = 1; clk < N_INSTRUCTIONS; clk++){
-     printf(" %3d\t|", dma_lat[clk] );
+    // printf(" %3d\t", dma_lat[clk] );
+    // This is just to make the results more clear. 
+    if(dma_lat[clk] <= 10)
+      printf(" %3d\t", 1 );
+    else if (dma_lat[clk] == 11)
+      printf(" %3d\t", 2 );
+    else if (dma_lat[clk] == 12)
+      printf(" %3d\t", 3 );
+    else if (dma_lat[clk] > 12)
+      printf(" %3d\t", 4 );
   }
   printf("\n");
 }
@@ -171,109 +174,10 @@ void else_path(){
 //------------------------------------------------------------------------------
 // PoC Toy Cache Attack
 //------------------------------------------------------------------------------
-void wrap_victim_s_world(){
-    // Invoke the victim in the S world. We need this wrap because the trace
-    // in waiting for a function pointer void (*victim)(void) and the NS entry 
-    // point is not.
-    victim_s_world();
-}
-
 void toy_attack_busted_ns(){
-    trace_victim(if_path);
-    printf("###################\r\n");
-    trace_victim(else_path);
-}
-
-void toy_attack_busted_s(){
-    trace_victim(wrap_victim_s_world);
-    printf("###################\r\n");
-    trace_victim(wrap_victim_s_world);
-}
-
-#define KYPD_NB_KEYS 16
-#define PIN_LEN 4
-int init = 0;
-int key_state = 0;
-int current_key_state = 0;
-char pin[PIN_LEN]; 
-int pin_idx = 0;
-char dummy_pin[PIN_LEN];
-int dummy_pin_idx = 0;
-// Securely store constant initialized keymap in SM text section
-const char keymap[] = {
-    '1', '4', '7', '*',
-    '2', '5', '8', '0',
-    '3', '6', '9', '#',
-    'A', 'B', 'C', 'D', 
-}; 
-
-int key_press = 0;
-
-int get_keypad_state(){
-  return 1<<(key_press++); 
-}
-
-int read_keypad_get_trace(void)
-{
-    int is_pressed, mask = 0x1;
-    int new_key_state = get_keypad_state();
-
-    for (int key = 0; key < 4; key++)
-    // for (int key = 0; key < KYPD_NB_KEYS; key++)
-    { 
-        // detect rising edge
-        // is_pressed = (new_key_state & mask) & ~(key_state & mask);
-        if ((new_key_state & mask))
-          pin[pin_idx++] = key;
-        else
-          dummy_pin[dummy_pin_idx++] = key;
-        // pin_idx = 0; 
-        // dummy_pin_idx = 0; //avoid buffer overflow
-        // mask <<= 1;
-    }
-    // key_state = new_key_state;
-    // return (2*4 - dummy_pin_idx);
-    // return (PIN_LEN - key_press);
-    // return (PIN_LEN - pin_idx);
-}
-
-void read_pin_get_trace(){
-  int pin_len = PIN_LEN;
-  key_press = 0;
-  while(PIN_LEN - key_press){
-    read_keypad_get_trace();
-  }
-  dummy_pin_idx = 0;
-  // pin_idx = 0;
-}
-
-void read_keypad_test(){
-  int is_pressed, mask = 0x1;
-  int new_key_state = get_keypad_state();
-  int dummy_pin_idx = 0;
-  static int pin_idx = 0;
-
-  for (int key = 0; key < 4; key++)
-  // for (int key = 0; key < KYPD_NB_KEYS; key++)
-  { 
-      // detect rising edge
-      is_pressed = (new_key_state & mask) & ~(key_state & mask);
-      if (is_pressed)
-        pin[pin_idx++] = key;
-      else
-        dummy_pin[dummy_pin_idx++] = key;
-      // pin_idx = 0; 
-      dummy_pin_idx = 0; //avoid buffer overflow
-      mask <<= 1;
-  }
-  key_state = new_key_state;
-  // return (2*4 - dummy_pin_idx);
-  return (PIN_LEN - key_press);
-  // return (PIN_LEN - pin_idx);
-}
-
-void toy_attack_busted(){
-  read_pin_get_trace();
-  printf("PIN = %d%d%d%d\n", pin[0], pin[1], pin[2], pin[3]);
-  read_keypad_test();
+  printf("TRACE IF\r\n");    
+  trace_victim(if_path);
+  printf("\r\n");
+  printf("TRACE ELSE\r\n");    
+  trace_victim(else_path);
 }
