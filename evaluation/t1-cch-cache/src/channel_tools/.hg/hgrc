@@ -1,0 +1,2 @@
+[paths]
+default = ssh://hg.ertos.nicta.com.au//data/hg_root/people/davec/channel_tools
