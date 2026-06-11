@@ -3,7 +3,6 @@ ROOT="$(realpath "$(dirname "$0")")"
 
 # T1_DIR="$(realpath "${ROOT}/t1-cch-cache")"
 T2_DIR="$(realpath "${ROOT}/t2-cch-nemesis")"
-# T3_DIR="$(realpath "${ROOT}/t3-cch-busted")"
 T4_DIR="$(realpath "${ROOT}/t4-toy-attack-cache")"
 T5_DIR="$(realpath "${ROOT}/t5-toy-attack-nemesis")"
 T6_DIR="$(realpath "${ROOT}/t6-toy-attack-busted")"
@@ -42,7 +41,6 @@ if [ "$CLEAN" = true ]; then
     echo "Cleaning logs directory..."
     # ${T1_DIR}/1-run-test.sh -c
     ${T2_DIR}/1-run-test.sh -c
-    # ${T3_DIR}/1-run-test.sh -c
     ${T4_DIR}/1-run-test.sh -c
     ${T5_DIR}/1-run-test.sh -c
     ${T6_DIR}/1-run-test.sh -c
@@ -64,10 +62,6 @@ cp "${T2_DIR}/outputs/C04-cch_0x55_matrix.png" "${RESULTS_DIR}/t2-cch-nemesis/"
 cp "${T2_DIR}/outputs/C04-cch_0xf0_matrix.png" "${RESULTS_DIR}/t2-cch-nemesis/"
 cp "${T2_DIR}/outputs/C04-cch_0xff_matrix.png" "${RESULTS_DIR}/t2-cch-nemesis/"
 cp "${T2_DIR}/outputs/irq_latency_mov_ldr.png" "${RESULTS_DIR}/t2-cch-nemesis/"
-
-# sleep 1 # Sleep for let the board reset and avoid potential issues with the next test
-# ${T3_DIR}/1-run-test.sh
-# mkdir -p "${RESULTS_DIR}/t2-cch-nemesis"
 
 sleep 1 # Sleep for let the board reset and avoid potential issues with the next test
 ${T4_DIR}/1-run-test.sh
