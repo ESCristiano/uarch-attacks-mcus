@@ -1,0 +1,1 @@
+cmd='/nix/store/81qcwgdxpwwfs1p0jsqj6kkkyh2v3y0w-cmake-3.30.5/bin/cmake;-DCMAKE_EXPORT_COMPILE_COMMANDS=ON;-DCMAKE_TOOLCHAIN_FILE=;-GEclipse CDT4 - Unix Makefiles;-S;<SOURCE_DIR><SOURCE_SUBDIR>;-B;<BINARY_DIR>'
