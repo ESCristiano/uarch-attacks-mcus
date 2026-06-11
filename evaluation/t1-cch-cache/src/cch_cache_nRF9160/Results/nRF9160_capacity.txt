@@ -1,0 +1,5 @@
+"/mnt/c/paper_tees_study/eval/tfm_tz/cache_ch/21_ch_base_nRF9160/Results/samples.txt" is recognised as an observation file.
+Estimated capacity: 6.833 (out of possible  7.000 bits)
+  Between 6.833 and 6.833 with 95% confidence
+  With 95% confidence, if leakage (w/o correction) < 0.1262, we may consider no information is leaked.
+There is a leak.

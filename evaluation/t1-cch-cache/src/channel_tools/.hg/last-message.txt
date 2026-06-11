@@ -1,0 +1,1 @@
+fixing the problem in filter sample
