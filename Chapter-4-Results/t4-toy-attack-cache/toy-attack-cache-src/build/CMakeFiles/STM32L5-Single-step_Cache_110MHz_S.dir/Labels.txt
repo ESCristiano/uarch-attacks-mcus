@@ -1,0 +1,13 @@
+# Target labels
+ STM32L5-Single-step_Cache_110MHz_S
+# Source files and their labels
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_S
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_S.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_S-complete.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-build.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-configure.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-download.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-install.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-mkdir.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-patch.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/Secure/src/STM32L5-Single-step_Cache_110MHz_S-stamp/STM32L5-Single-step_Cache_110MHz_S-update.rule

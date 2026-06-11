@@ -1,0 +1,13 @@
+# Target labels
+ STM32L5-Single-step_Cache_110MHz_NS
+# Source files and their labels
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_NS
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_NS.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_NS-complete.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-build.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-configure.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-download.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-install.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-mkdir.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-patch.rule
+/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/build/NonSecure/src/STM32L5-Single-step_Cache_110MHz_NS-stamp/STM32L5-Single-step_Cache_110MHz_NS-update.rule

@@ -1,0 +1,21 @@
+CMakeFiles/STM32L5-Single-step_Cache_110MHz_S.dir/Core/Src/sysmem.c.obj: \
+ /home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Secure/Core/Src/sysmem.c \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/errno.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/errno.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/reent.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/_ansi.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/newlib.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/_newlib_version.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/config.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/machine/ieeefp.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/features.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/lib/gcc/arm-none-eabi/13.3.1/include/stddef.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/cdefs.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/machine/_default_types.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/_types.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/machine/_types.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/lock.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/lib/gcc/arm-none-eabi/13.3.1/include/stdint.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/stdint.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/_intsup.h \
+ /nix/store/cjigdbpwy8clygpwq0kl8lw0a4g0gd9d-gcc-arm-embedded-13.3.rel1/arm-none-eabi/include/sys/_stdint.h

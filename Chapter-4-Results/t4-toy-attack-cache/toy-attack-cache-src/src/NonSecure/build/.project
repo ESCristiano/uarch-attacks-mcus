@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>STM32L5-Single-step_Cache_110MHz_NS-Debug@build</name>
+	<comment></comment>
+	<projects></projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/nix/store/gvc67j3hwsyz6bd2g9gfr80l1r6n3khm-gnumake-4.4.1/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j24</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments/>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS//startup_stm32l552xx.s</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Startup/startup_stm32l552xx.s</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS//i_cache_buffer_ns.s</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/toy-cache/src/i_cache_buffer_ns.s</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/main.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/main.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/gpio.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/gpio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/icache.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/icache.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/usart.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/usart.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/tim.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/tim.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/stm32l5xx_it.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/stm32l5xx_it.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/stm32l5xx_hal_msp.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/stm32l5xx_hal_msp.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/sysmem.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/sysmem.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/syscalls.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/syscalls.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/toy_cache.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/toy-cache/src/toy_cache.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/uArchChannel_lib.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/toy-cache/src/uArchChannel_lib.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Source Files/tim_int.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/tim_int.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/system_stm32l5xx_ns.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/Core/Src/system_stm32l5xx_ns.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_i2c.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_i2c_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_rcc.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_rcc_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_flash.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_flash_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_flash_ramfunc.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_gpio.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_dma.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_dma_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_exti.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_pwr.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_pwr_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_cortex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_icache.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_uart.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_uart_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_tim.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] STM32L5-Single-step_Cache_110MHz_NS/Object Libraries/stm32l5xx_hal_tim_ex.c.obj</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/build/CMakeFiles/STM32_Drivers.dir/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c.obj</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/system_stm32l5xx_ns.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/NonSecure/Core/Src/system_stm32l5xx_ns.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_i2c.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_i2c_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_i2c_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_rcc.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_rcc_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_rcc_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_flash.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_flash_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_flash_ramfunc.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_flash_ramfunc.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_gpio.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_gpio.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_dma.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_dma_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_dma_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_exti.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_exti.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_pwr.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_pwr_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_pwr_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_cortex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_cortex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_icache.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_icache.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_uart.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_uart_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_uart_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_tim.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Source Files/stm32l5xx_hal_tim_ex.c</name>
+			<type>1</type>
+			<location>/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Drivers/STM32L5xx_HAL_Driver/Src/stm32l5xx_hal_tim_ex.c</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Precompile Header File</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] STM32_Drivers/Object Libraries</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
