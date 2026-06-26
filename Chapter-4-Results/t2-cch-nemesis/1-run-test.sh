@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ROOT="$(realpath "$(dirname "$0")")"
 
-MSTP_ROOT_DIR="$(realpath "${ROOT}/../../m-step")"
+MSTP_ROOT_DIR="$(realpath "${ROOT}/../../m-step-thesis-exp")"
 
 COPILOT_DIR="$(realpath "${MSTP_ROOT_DIR}/copilot")"
 GRAPH_SCRIPT_DIR="$(realpath "${ROOT}/../scripts")"
