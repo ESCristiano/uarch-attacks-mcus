@@ -1,4 +1,0 @@
-/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Secure/build/CMakeFiles/STM32L5-Single-step_Cache_110MHz_S.dir
-/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Secure/build/CMakeFiles/STM32_Drivers.dir
-/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Secure/build/CMakeFiles/edit_cache.dir
-/home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Secure/build/CMakeFiles/rebuild_cache.dir

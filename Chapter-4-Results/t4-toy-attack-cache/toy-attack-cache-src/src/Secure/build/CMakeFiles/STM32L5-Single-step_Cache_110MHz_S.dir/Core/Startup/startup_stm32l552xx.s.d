@@ -1,2 +1,0 @@
-CMakeFiles/STM32L5-Single-step_Cache_110MHz_S.dir/Core/Startup/startup_stm32l552xx.s.obj: \
- /home/cris/Documents/0_Projects/uarch-attacks-mcus/evaluation/t4-toy-attack-cache/toy-attack-cache-src/src/Secure/Core/Startup/startup_stm32l552xx.s
