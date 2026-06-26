@@ -16,3 +16,6 @@
 [submodule "m-step/m-step/mstp-debug/renode/src/renode-infrastructure"]
 	path = m-step/m-step/mstp-debug/renode/src/renode-infrastructure
 	url = https://github.com/ESCristiano/renode-infrastructure.git
+[submodule "Chapter-5-BUSted/BUSted"]
+	path = Chapter-5-BUSted/BUSted
+	url = https://github.com/ESCristiano/BUSted.git
