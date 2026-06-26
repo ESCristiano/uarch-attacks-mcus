@@ -15,14 +15,15 @@
 	
 	dependencies = [
           pkgs.cmake
-          pkgs.gcc-arm-embedded-13
+          pkgs.gcc-arm-embedded-10
           pkgs.mcuboot-imgtool
-	  pkgs.gtkwave
-	  pkgs.jupyter
+          pkgs.gtkwave
+          pkgs.jupyter
       	];
 
         # Python packages
       	pythonEnv = pkgs.python3.withPackages (py: [
+          py.cbor
           py.cbor2
           py.click
           py.cryptography
@@ -32,8 +33,8 @@
           py.ninja
           py.kconfiglib
           py.tkinter
-	  py.matplotlib
-	  py.pyserial
+          py.matplotlib
+          py.pyserial
       	]);
  
       in {
@@ -46,12 +47,12 @@
           ];
 
           shellHook = ''
-           echo "ARM dev environment ready."
+          echo "ARM dev environment ready."
 	  
-	   # If fish exists, open it
-           if command -v fish &> /dev/null; then
-             exec fish
-           fi
+          # If fish exists, open it
+          if command -v fish &> /dev/null; then
+            exec fish
+          fi
           '';
         };
       }
